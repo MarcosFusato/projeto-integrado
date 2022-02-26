@@ -1,0 +1,5 @@
+# Arquivo temporario jupyter notebook
+/.ipynb_checkpoints/*.ipynb
+
+# Arquivo temporario python
+/lib/__pycache__/*.pyc
