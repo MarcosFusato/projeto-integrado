@@ -3,13 +3,14 @@ import numpy as np
 
 class ProcessamentoDados:
 
-    def renomear_colunas(data):    
+    def renomear_colunas (data):    
         # Cria um dicionario com o nome das colunas
         dic_colunas = {'age':'Idade', 'workclass':'Classe Trabalho', 'fnlwgt':'Peso Final', 'education':'Educacao', 
-                    'education-num':'Num Educacao', 'marital-status':'Estado Civil','occupation':'Ocupacao',
-                    'relationship':'Relacao', 'race':'Raca', 'sex':'Sexo', 'capital-gain':'Ganho Capital',
-                    'capital-loss':'Perda Capital', 'hours-per-week':'Horas Semana', 'native-country': 'Pais Nativo',
-                    'income': 'Renda'}
+                       'education.num':'Num Educacao', 'marital.status':'Estado Civil','occupation':'Ocupacao',
+                       'relationship':'Relacao', 'race':'Raca', 'sex':'Sexo', 'capital.gain':'Ganho Capital',
+                       'capital.loss':'Perda Capital', 'hours.per.week':'Horas Semana', 'native.country': 'Pais Nativo',
+                       'income': 'Renda'}
+        print('dic_colunas: ', dic_colunas)
         
         #Renomeando as colunas baseado no dicionario
         data.rename(dic_colunas, axis=1, inplace=True) 
