@@ -3,3 +3,18 @@
 
 # Arquivo temporario python
 /lib/__pycache__/*.pyc
+
+# Arquivo temporario python
+/pipeline/dags/__pycache__/*.pyc
+
+# Arquivo temporario python
+/pipeline/dags/scripts/lib/__pycache__/*.pyc
+
+# Arquivo temporario python
+/pipeline/dags/scripts/apiRenda/app/main/predicao/__pycache__/*.pyc
+
+# Arquivo temporario python
+/pipeline/dags/scripts/apiRenda/app/__pycache__/*.pyc
+
+# ignora qualquer diretório chamado "mlruns"
+.mlruns/
