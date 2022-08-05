@@ -9,7 +9,7 @@ COPY . /app
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE 5600
+EXPOSE 5500
 
 ENTRYPOINT [ "python3" ]
 
